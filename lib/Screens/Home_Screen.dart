@@ -11,8 +11,9 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple[900],
       appBar: AppBar(
+        backgroundColor: Colors.deepPurple[900],
+        elevation: 10,
         title: Text('Sovereign Squares'),
         actions: [],
       ),
