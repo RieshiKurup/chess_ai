@@ -1,4 +1,6 @@
-import 'package:chess_ai/Screens/Home_Screen.dart';
+// ignore: unused_import
+import 'package:chess_ai/Screens/Get_Started.dart';
+import 'package:chess_ai/Screens/play_a_game.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,7 +34,12 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomeScreen()
+      home: PlayAGame(),
+       routes: {
+         '/homepage': (context)  => const HomePage()
+         '/getstarted': (context)  => const GetStarted()
+           
+      },
     );
   }
 }

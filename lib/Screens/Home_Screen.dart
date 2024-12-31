@@ -15,7 +15,8 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: Colors.deepPurple[900],
         elevation: 10,
         title: Text('Sovereign Squares'),
-        actions: [],
+        centerTitle: true,
+       actions: [],
       ),
       body: Container(
         child: Center(
