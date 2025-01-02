@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
       home: PlayAGame(),
        routes: {
          '/homepage': (context)  => const HomePage()
-         '/getstarted': (context)  => const GetStarted()
+         //'/getstarted': (context)  => const GetStarted()
            
       },
     );
