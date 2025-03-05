@@ -34,9 +34,10 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: PlayAGame(),
+      home: GetStartedPage(),
        routes: {
-         '/homepage': (context)  => const HomePage()
+         '/getstarted': (context)  => GetStartedPage()
+         //'/getstarted':  (context) => GetStartedPage()
          //'/getstarted': (context)  => const GetStarted()
            
       },

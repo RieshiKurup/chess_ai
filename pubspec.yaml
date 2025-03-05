@@ -38,6 +38,8 @@ dependencies:
   bishop: ^1.4.4
   squares: ^1.2.1
   square_bishop: ^0.3.0
+  speech_to_text: ^7.0.0
+  flutter_chess_board: ^1.0.1
 
 squares: ^1.2.1
 bishop: ^1.4.4
